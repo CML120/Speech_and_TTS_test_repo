@@ -25,7 +25,7 @@ const SpeechRecognitionComponent = ({ handleSpokenWord }) => {
   return (
     <div>
       <button onClick={toggleListening}>
-        {listening ? 'Stop Listening' : 'Start Listening'}
+        {listening ? 'Stop Microphone' : 'Start Microphone'}
       </button>
     </div>
   );
